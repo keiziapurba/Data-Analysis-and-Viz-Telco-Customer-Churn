@@ -18,19 +18,19 @@ The data set includes information about:
 |SeniorCitizen|Categorical| Whether the customer is a senior citizen or not (1, 0). |
 |Partner|Categorical| Whether the customer has a partner or not (Yes, No).|
 |Dependents|Categorical| Whether the customer has dependents or not (Yes, No).|
-|Tenure| Categorical | Number of months the customer has stayed with the company.|
+|Tenure| Numerical | Number of months the customer has stayed with the company.|
 |PhoneService| Categorical | Whether the customer has a phone service or not (Yes, No).|
 |MultipleLines| Categorical | Whether the customer has multiple lines or not (Yes, No, No phone service).|
-|InternetService| Numerical| Customer’s internet service provider (DSL, Fiber optic, No).|
+|InternetService| Categorical| Customer’s internet service provider (DSL, Fiber optic, No).|
 |OnlineSecurity| Categorical | Whether the customer has online security or not (Yes, No, No internet service).|
-|OnlineBackup|Numerical|Number of Days, Customer has been associated with the company.|
-|DeviceProtection|Numerical|Number of Days, Customer has been associated with the company.|
-|TechSupport|Numerical|Number of Days, Customer has been associated with the company.|
-|StreamingTV|Numerical|Number of Days, Customer has been associated with the company.|
-|StreamingMovies|Numerical|Number of Days, Customer has been associated with the company.|
-|Contract|Numerical|Number of Days, Customer has been associated with the company.|
-|PaperlessBilling|Numerical|Number of Days, Customer has been associated with the company.|
-|PaymentMethod|Numerical|Number of Days, Customer has been associated with the company.|
-|MonthlyCharges|Numerical|Number of Days, Customer has been associated with the company.|
-|TotalCharges|Numerical|Number of Days, Customer has been associated with the company.|
-|**Churn** (Target Feature)| Categorical | 1 for Customer is interested, 0 for Customer is not interested.|
+|OnlineBackup|Categorical| |
+|DeviceProtection|Categorical| |
+|TechSupport|Categorical| |
+|StreamingTV|Categorical| |
+|StreamingMovies|Categorical| |
+|Contract|Categorical| |
+|PaperlessBilling|Categorical| |
+|PaymentMethod|Categorical| |
+|MonthlyCharges|Numerical| |
+|TotalCharges|Numerical| |
+|**Churn** (Target Feature)| Categorical | Customers that stop using your business during a given time frame (Yes, No).|
