@@ -13,15 +13,24 @@ The data set includes information about:
 
 | Feature Name | Type | Description |
 |----|----|----|
-|id| (continous) |Unique identifier for the Customer.|
-|Age |Numerical| Age of the Customer.|
-|Gender |Categorical|Gender of the Customer|
-|Driving_License |Categorical|0 for customer not having DL, 1 for customer having DL.|
-|Region_Code |Categorical|Unique code for the region of the customer.|
-|Previously_Insured| Categorical | 0 for customer not having vehicle insurance, 1 for customer having vehicle insurance.|
-|Vehicle_Age| Categorical | Age of the vehicle.|
-|Vehicle_Damage | Categorical | Customer got his/her vehicle damaged in the past. 0 : Customer didn't get his/her vehicle damaged in the past.|
-|Annual_Premium| Numerical| The amount customer needs to pay as premium in the year.|
-|Policy_Sales_Channel| Categorical | Anonymized Code for the channel of outreaching to the customer ie. Different Agents, Over Mail, Over Phone, In Person, etc.|
-|Vintage |Numerical|Number of Days, Customer has been associated with the company.|
-|**Response** (Target Feature)| Categorical | 1 for Customer is interested, 0 for Customer is not interested.|
+|CustomerID| (continous) |Unique identifier for the Customer.|
+|Gender|Numerical| Whether the customer is a male or a female.|
+|SeniorCitizen|Categorical| Whether the customer is a senior citizen or not (1, 0). |
+|Partner|Categorical| Whether the customer has a partner or not (Yes, No).|
+|Dependents|Categorical| Whether the customer has dependents or not (Yes, No).|
+|Tenure| Categorical | Number of months the customer has stayed with the company.|
+|PhoneService| Categorical | Whether the customer has a phone service or not (Yes, No).|
+|MultipleLines| Categorical | Whether the customer has multiple lines or not (Yes, No, No phone service).|
+|InternetService| Numerical| Customer’s internet service provider (DSL, Fiber optic, No).|
+|OnlineSecurity| Categorical | Whether the customer has online security or not (Yes, No, No internet service).|
+|OnlineBackup|Numerical|Number of Days, Customer has been associated with the company.|
+|DeviceProtection|Numerical|Number of Days, Customer has been associated with the company.|
+|TechSupport|Numerical|Number of Days, Customer has been associated with the company.|
+|StreamingTV|Numerical|Number of Days, Customer has been associated with the company.|
+|StreamingMovies|Numerical|Number of Days, Customer has been associated with the company.|
+|Contract|Numerical|Number of Days, Customer has been associated with the company.|
+|PaperlessBilling|Numerical|Number of Days, Customer has been associated with the company.|
+|PaymentMethod|Numerical|Number of Days, Customer has been associated with the company.|
+|MonthlyCharges|Numerical|Number of Days, Customer has been associated with the company.|
+|TotalCharges|Numerical|Number of Days, Customer has been associated with the company.|
+|**Churn** (Target Feature)| Categorical | 1 for Customer is interested, 0 for Customer is not interested.|
