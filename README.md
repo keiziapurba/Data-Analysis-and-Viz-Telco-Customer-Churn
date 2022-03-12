@@ -24,9 +24,9 @@ The data set includes information about:
 |MultipleLines| Categorical | Whether the customer has multiple lines or not (Yes, No, No phone service).|
 |InternetService| Categorical| Customer’s internet service provider (DSL, Fiber optic, No).|
 |OnlineSecurity| Categorical | Whether the customer has online security or not (Yes, No, No internet service).|
-|OnlineBackup|Categorical| |
-|DeviceProtection|Categorical| |
-|TechSupport|Categorical| |
+|OnlineBackup|Categorical| Data that copied to an “off-site' or cloud backup service (Yes, No). |
+|DeviceProtection|Categorical| Protection from loss or theft to damage, malfunction and threats to your personal data (Yes, No). |
+|TechSupport|Categorical| Assistance that is provided to a user who requires helps with a technical product or service (Yes, No). |
 |StreamingTV|Categorical| |
 |StreamingMovies|Categorical| |
 |Contract|Categorical| |
