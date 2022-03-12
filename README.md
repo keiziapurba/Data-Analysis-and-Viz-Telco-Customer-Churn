@@ -27,11 +27,11 @@ The data set includes information about:
 |OnlineBackup|Categorical| Data that copied to an “off-site' or cloud backup service (Yes, No). |
 |DeviceProtection|Categorical| Protection from loss or theft to damage, malfunction and threats to your personal data (Yes, No). |
 |TechSupport|Categorical| Assistance that is provided to a user who requires helps with a technical product or service (Yes, No). |
-|StreamingTV|Categorical| |
-|StreamingMovies|Categorical| |
-|Contract|Categorical| |
-|PaperlessBilling|Categorical| |
-|PaymentMethod|Categorical| |
-|MonthlyCharges|Numerical| |
-|TotalCharges|Numerical| |
+|StreamingTV|Categorical| Digital distribution of television content, such as TV shows, as streaming media delivered over the Internet (Yes, No). |
+|StreamingMovies|Categorical| Consume movies online without downloading files that take up storage space on device (Yes, No). |
+|Contract|Categorical| A legally enforceable agreement that creates, defines, and governs mutual rights and obligations among its parties. |
+|PaperlessBilling|Categorical| Electronic version of a bill instead of a paper bill (Yes, No). |
+|PaymentMethod|Categorical| A way that customers pay for a product or service. |
+|MonthlyCharges|Numerical| Rates applicable to all billed electricity consumption included in a normal billing cycle. |
+|TotalCharges|Numerical| All sums paid by the Customer and all sums payable under the Contract in respect of goods and Services. |
 |**Churn** (Target Feature)| Categorical | Customers that stop using your business during a given time frame (Yes, No).|
