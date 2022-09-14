@@ -15,7 +15,7 @@ The data set includes information about:
 | Feature Name | Type | Description |
 |----|----|----|
 |CustomerID| (continous) |Unique identifier for the Customer.|
-|Gender|Numerical| Whether the customer is a male or a female.|
+|Gender|Categorical| Whether the customer is a male or a female.|
 |SeniorCitizen|Categorical| Whether the customer is a senior citizen or not (1, 0). |
 |Partner|Categorical| Whether the customer has a partner or not (Yes, No).|
 |Dependents|Categorical| Whether the customer has dependents or not (Yes, No).|
